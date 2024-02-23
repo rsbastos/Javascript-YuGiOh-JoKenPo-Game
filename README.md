@@ -1,9 +1,9 @@
 # Yu-Gi-Oh | Jo-ken-po Edition
 
-Jogo de jokenpo que criei para explicar conceitos de lógica de programação aplicados a jogos
+A JavaScript "rock, paper and scissors" game, created to explain programming logic concepts applied to games, for Bootcamp Potência Tech iFood - Games Development, from DIO.
 
-conceitos abordados:
+Concepts covered:
 
-- Armazenamento e gerenciamento de estado manual
-- Funções limpas
-- Organização de código
+- Manual state storage and management;
+- Clean Functions;
+- Code organization;
