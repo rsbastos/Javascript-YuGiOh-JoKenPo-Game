@@ -7,3 +7,5 @@ Concepts covered:
 - Manual state storage and management;
 - Clean Functions;
 - Code organization;
+
+### You can play the game at https://rsbastos.github.io/Javascript-YuGiOh-JoKenPo-Game/ 
