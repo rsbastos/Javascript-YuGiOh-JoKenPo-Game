@@ -193,6 +193,8 @@ async function playAudio(status) {
 }
 
 function init() {
+    const bgm = document.getElementById("bgm");
+    bgm.play();
     
     showHiddenCardFieldsImages(false);
 
