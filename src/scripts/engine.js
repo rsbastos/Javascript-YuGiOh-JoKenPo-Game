@@ -192,14 +192,12 @@ async function playAudio(status) {
     } catch {}   
 }
 
-function init() {
-    const bgm = document.getElementById("bgm");
-    bgm.play();
+function init() { 
     
     showHiddenCardFieldsImages(false);
 
     drawCards(5, playerSides.player1);
-    drawCards(5, playerSides.computer);
+    drawCards(5, playerSides.computer);   
 }
 
 init();

@@ -20,15 +20,23 @@
     <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
 
     <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/main.css">  
+
+    <title>Yu-Gi-Oh Jo-ken-po Edition</title>  
+
+</head>
+
+<body>
     
 
-    <title>Yu-Gi-Oh Jo-ken-po Edition</title>
-</head>
-<body>
-    <audio id="bgm" loop>
+
+
+
+
+
+    <!-- <audio id="bgm" autoplay loop>
         <source src="./src/assets/audios/egyptian_duel.mp3" type="audio/mp3"/>
-    </audio>
+    </audio> -->
 
     <div class="bg-video">
         <video class="video" autoplay loop muted>
@@ -80,6 +88,18 @@
 
     </div>
 
+    <audio id="bgm" src="./src/assets/audios/egyptian_duel.mp3" preload="auto" loop> 
+        <style>
+             #bgm { display: none }
+        </style>
+    
+        <script>
+            let html = document.querySelector("html");
+            let bgm = document.querySelector("#bgm");
+            html.addEventListener('click', () => {
+                bgm.play();
+            })
+        </script>
 
     <script src="./src/scripts/engine.js" defer></script>
 </body>
