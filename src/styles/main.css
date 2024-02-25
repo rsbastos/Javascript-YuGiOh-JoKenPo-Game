@@ -84,22 +84,25 @@
     padding: 0.3rem;    
 }
 
-.card-versus__container {  
-    margin-top: 2rem; 
+.card-versus__container {       
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    align-content: center;
     padding-top: 0.1rem;
     height: 300px;
 }
 
 .versus-top,
 .versus-bottom {
+    
     display: flex;
     align-items: center;
-    justify-content: center;     
+    justify-content: center;   
+   
 }
 
-.versus-bottom {
+.versus-bottom {   
     margin-top: 1rem;
 }
 
